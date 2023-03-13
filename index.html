@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="wrap">
+        <h1 class="title">Countries</h1>
+        <div class="box">
+          <form>
+            <input type="search" class="search js-input" placeholder="search">
+          </form>
+          <select class="select js-select">
+            <option value="Filter region" disabled="" selected="">Filter region</option>
+          </select>
+          <button class="mode js-mode">
+            <img class="mode-img" src="./image/creative-idea-ideation-svgrepo-com.svg" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <ul class="list js-list"></ul>
+  </div>
+
+  <template class="js-template">
+    <li class="item">
+      <img class="item__img js-img" src="..." alt="">
+      <h3 class="item__title js-title">title</h3>
+      <p class="item__text js-text">Lorem ipsum dolor sit amet.</p>
+      <span class="item__span population">12</span>
+      <span class="item__span capital">12</span>
+      <span class="item__span region">12</span>
+    </li>
+  </template>
+</body>
+<script src="./main.js"></script>
+</html>
